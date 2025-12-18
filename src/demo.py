@@ -375,9 +375,9 @@ def main():
     Example usage of the demo functions.
     """
     # Example video path (update with your actual video path)
-    video_path = "../data/videos/Poland_Iran.mp4"
-    output_detection = "../output/object_detection_demo.mp4"
-    output_classification = "../output/video_classification_demo.mp4"
+    video_path = "test.mp4"
+    output_detection = "output/object_detection_demo.mp4"
+    output_classification = "output/video_classification_demo.mp4"
     
     # Create output directory if it doesn't exist
     Path("output").mkdir(exist_ok=True)
